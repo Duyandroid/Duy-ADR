@@ -1,4 +1,4 @@
-shared.LoaderTitle = "Tik Tok Duybayacc";
+shared.LoaderTitle = "Tik Tok: Duybayacc";
 shared.LoaderKeyFrames = {
     [1] = {
         1,
