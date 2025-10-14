@@ -2259,7 +2259,7 @@ QuestNeta = function()
     }
 end
 
-local Fluent = loadstring(game:HttpGet("https://raw.githubusercontent.com/Duyandroid/Duyandroid/refs/heads/main/flast%20attack_1.lua"))()
+local Fluent = loadstring(game:HttpGet("https://raw.githubusercontent.com/Duyandroid/Duyandroid/refs/heads/main/flast%20attack_1.lua"))();
 local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
 local Window = Fluent:CreateWindow({
     Title = "Duy Android Hub",
