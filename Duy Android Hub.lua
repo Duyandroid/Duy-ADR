@@ -812,6 +812,13 @@ Useskills = function(weapon, skill)
         vim1:SendKeyEvent(false, "Y", false, game);
     end
 end
+v16.Home:AddButton({
+    Title = "TikTok",
+    Description = "Thông Tin",
+    Callback = function()
+        setclipboard("");
+    end
+});
 local gg = getrawmetatable(game)
 local old = gg.__namecall
 setreadonly(gg, false)
@@ -2267,7 +2274,7 @@ local Window = Fluent:CreateWindow({
     TabWidth = 155,
     Size = UDim2.fromOffset(485, 370),
     Acrylic = false,
-    Theme = "Blue",
+    Theme = "rainbow ",
     MinimizeKey = Enum.KeyCode.End
 })
 local Tabs = {
