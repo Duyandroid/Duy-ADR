@@ -2260,7 +2260,7 @@ QuestNeta = function()
 end
 
 local Fluent = loadstring(game:HttpGet("https://raw.githubusercontent.com/AnhDzaiScript/Setting/refs/heads/main/FastMax.lua"))()
-local Fluent = loadstring(game:HttpGet('%smain.luau'))(%s)
+local Fluent = loadstring(game:HttpGet('%smain.luau'))()
 local Window = Fluent:CreateWindow({
     Title = "Duy Android Hub",
     SubTitle = "Beta",
