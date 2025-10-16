@@ -2259,9 +2259,9 @@ QuestNeta = function()
     }
 end
 
-local Fluent = loadstring(game:HttpGet("https://raw.githubusercontent.com/AnhDzaiScript/Setting/refs/heads/main/FastMax.lua"))()
-local Fluent = loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/Library-ui/refs/heads/main/Redzhubui"))()
-local Window = Fluent:CreateWindow({
+local redzlib  = loadstring(game:HttpGet("https://raw.githubusercontent.com/AnhDzaiScript/Setting/refs/heads/main/FastMax.lua"))()
+local redzlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/Library-ui/refs/heads/main/Redzhubui"))()
+local Window = redzlib:CreateWindow({
     Title = "Duy Android Hub",
     SubTitle = "Beta",
     TabWidth = 155,
