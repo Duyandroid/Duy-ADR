@@ -2262,17 +2262,17 @@ end
 local Fluent = loadstring(game:HttpGet("https://raw.githubusercontent.com/AnhDzaiScript/Setting/refs/heads/main/FastMax.lua"))()
 local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
 local Window = Fluent:CreateWindow({
-    Title = "Duy Android Hub🇻🇳",
+    Title = "Duy Android Hub",
     SubTitle = "Beta",
     TabWidth = 155,
     Size = UDim2.fromOffset(485, 370),
     Acrylic = false,
-    Theme = "Red ",
+    Theme = "Blue",
     MinimizeKey = Enum.KeyCode.End
 })
 local Tabs = {
     Main = Window:AddTab({
-        Title = "🏛General",
+        Title = "General",
         Icon = ""
     }),
     Settings = Window:AddTab({
