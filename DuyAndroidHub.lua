@@ -2259,10 +2259,10 @@ QuestNeta = function()
     }
 end
 
-local redzlib  = loadstring(game:HttpGet("https://raw.githubusercontent.com/AnhDzaiScript/Setting/refs/heads/main/FastMax.lua"))()
-local redzlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/Library-ui/refs/heads/main/Redzhubui"))()
-local Window = redzlib:CreateWindow({
-    Title = "Duy Android Hub",
+local Fluent = loadstring(game:HttpGet("https://raw.githubusercontent.com/AnhDzaiScript/Setting/refs/heads/main/FastMax.lua"))()
+local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
+local Window = Fluent:CreateWindow({
+    Title = "Duy Android Hub🇻🇳",
     SubTitle = "Beta",
     TabWidth = 155,
     Size = UDim2.fromOffset(485, 370),
@@ -2272,11 +2272,11 @@ local Window = redzlib:CreateWindow({
 })
 local Tabs = {
     Main = Window:AddTab({
-        Title = "General",
+        Title = "🏛General",
         Icon = ""
     }),
     Settings = Window:AddTab({
-        Title = "Settings",
+        Title = "⚙️Settings",
         Icon = ""
     }),
     Melee = Window:AddTab({
