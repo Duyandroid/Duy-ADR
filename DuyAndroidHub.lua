@@ -2267,17 +2267,17 @@ local Window = Fluent:CreateWindow({
     TabWidth = 155,
     Size = UDim2.fromOffset(485, 370),
     Acrylic = false,
-    Theme = "Blue",
+    Theme = "Light",
     MinimizeKey = Enum.KeyCode.End
 })
 local Tabs = {
     Main = Window:AddTab({
-        Title = "General",
-        Icon = ""
+        Title = "Main",
+        Icon = "🎯"
     }),
     Settings = Window:AddTab({
-        Title = "⚙️Settings",
-        Icon = ""
+        Title = "Settings",
+        Icon = "⚙️"
     }),
     Melee = Window:AddTab({
         Title = "Fighting Style",
@@ -2285,15 +2285,15 @@ local Tabs = {
     }),
     Quests = Window:AddTab({
         Title = "Items",
-        Icon = ""
+        Icon = "📦"
     }),
     New = Window:AddTab({
         Title = "New Events",
-        Icon = ""
+        Icon = "🎉"
     }),
     SeaEvent = Window:AddTab({
         Title = "Sea Events",
-        Icon = ""
+        Icon = "🌊"
     }),
     Mirage = Window:AddTab({
         Title = "Mirage + RaceV4",
@@ -2309,27 +2309,27 @@ local Tabs = {
     }),
     Raids = Window:AddTab({
         Title = "Raid",
-        Icon = ""
+        Icon = "🗡️"
     }),
     Combat = Window:AddTab({
         Title = "Combat PVP",
-        Icon = ""
+        Icon = "⚔️"
     }),
     Travel = Window:AddTab({
         Title = "Teleport",
-        Icon = ""
+        Icon = "🌀"
     }),
     Fruit = Window:AddTab({
         Title = "Fruits",
-        Icon = ""
+        Icon = "🍎"
     }),
     Shop = Window:AddTab({
         Title = "Shop",
-        Icon = ""
+        Icon = "🛒"
     }),
     Misc = Window:AddTab({
         Title = "Misc",
-        Icon = ""
+        Icon = "🔎"
     })
 }
 local FarmLevel = Tabs.Main:AddToggle("FarmLevel", {
