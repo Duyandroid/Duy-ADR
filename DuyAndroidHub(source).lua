@@ -309,7 +309,6 @@ v5:Destroy();
 --         pcall(v422);
 --     end
 -- end);
-bước 2.txt
     ply = game.Players
     plr = ply.LocalPlayer
     Root = plr.Character.HumanoidRootPart
@@ -1095,7 +1094,6 @@ Hop = function()
         end
     end)
 end
-bước 3.txt
 local block = Instance.new("Part", workspace)
 block.Size = Vector3.new(1, 1, 1)
 block.Name = "Rip_Indra"
@@ -2310,28 +2308,28 @@ local Tabs = {
         Icon = ""
     }),
     Raids = Window:AddTab({
-        Title = "🗡️Raid",
-        Icon = ""
+        Title = "Raid",
+        Icon = "🗡️"
     }),
     Combat = Window:AddTab({
-        Title = "⚔️Combat PVP",
-        Icon = ""
+        Title = "Combat PVP",
+        Icon = "⚔️"
     }),
     Travel = Window:AddTab({
-        Title = "🌀Teleport",
-        Icon = ""
+        Title = "Teleport",
+        Icon = "🌀"
     }),
     Fruit = Window:AddTab({
-        Title = "🍎Fruits",
-        Icon = ""
+        Title = "Fruits",
+        Icon = "🍎"
     }),
     Shop = Window:AddTab({
-        Title = "🛒Shop",
-        Icon = ""
+        Title = "Shop",
+        Icon = "🛒"
     }),
     Misc = Window:AddTab({
-        Title = "🔎Misc",
-        Icon = ""
+        Title = "Misc",
+        Icon = "🔎"
     })
 }
 local FarmLevel = Tabs.Main:AddToggle("FarmLevel", {
