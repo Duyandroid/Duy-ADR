@@ -14,7 +14,7 @@ local Window =
     Fluent:CreateWindow(
     {
         Title = "Duy Anroid Hub[Premium]",
-        SubTitle = "Make by @GenGar Premium",
+        SubTitle = "Make by Quỳnh Nứng Lồn Premium",
         TabWidth = 160,
         Size = UDim2.fromOffset(530, 350),
         Acrylic = false,
