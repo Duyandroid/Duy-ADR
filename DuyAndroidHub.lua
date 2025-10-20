@@ -2271,66 +2271,20 @@ local Window = Fluent:CreateWindow({
     MinimizeKey = Enum.KeyCode.End
 })
 local Tabs = {
-    Main = Window:AddTab({
-        Title = "Main",
-        Icon = "🎯"
-    }),
-    Settings = Window:AddTab({
-        Title = "Settings",
-        Icon = "⚙️"
-    }),
-    Melee = Window:AddTab({
-        Title = "Fighting Style",
-        Icon = ""
-    }),
-    Quests = Window:AddTab({
-        Title = "Items",
-        Icon = "📦"
-    }),
-    New = Window:AddTab({
-        Title = "New Events",
-        Icon = "🎉"
-    }),
-    SeaEvent = Window:AddTab({
-        Title = "Sea Events",
-        Icon = "🌊"
-    }),
-    Mirage = Window:AddTab({
-        Title = "Mirage + RaceV4",
-        Icon = ""
-    }),
-    Drago = Window:AddTab({
-        Title = "Drago Dojo",
-        Icon = ""
-    }),
-    Prehistoric = Window:AddTab({
-        Title = "Prehistoric",
-        Icon = ""
-    }),
-    Raids = Window:AddTab({
-        Title = "Raid",
-        Icon = "🗡️"
-    }),
-    Combat = Window:AddTab({
-        Title = "Combat PVP",
-        Icon = "⚔️"
-    }),
-    Travel = Window:AddTab({
-        Title = "Teleport",
-        Icon = "🌀"
-    }),
-    Fruit = Window:AddTab({
-        Title = "Fruits",
-        Icon = "🍎"
-    }),
-    Shop = Window:AddTab({
-        Title = "Shop",
-        Icon = "🛒"
-    }),
-    Misc = Window:AddTab({
-        Title = "Misc",
-        Icon = "🔎"
-    })
+    Sever = Window:AddTab({Title = "Status And Server", Icon = "loader"}),
+    Main = Window:AddTab({Title = "Main", Icon = "home"}),
+    Setting = Window:AddTab({Title = "Settings", Icon = "sliders"}),
+    Player = Window:AddTab({Title = "PvP", Icon = "shield"}),
+    Item = Window:AddTab({Title = "Get Item", Icon = "sword"}),
+    Fish = Window:AddTab({Title = "Sea Event", Icon = "anchor"}),
+    Volcanic = Window:AddTab({Title = "Volcano Event", Icon = "tent"}),	
+    S =	Window:AddTab({Title = "Setting For Sea Event", Icon = "layers"}),	
+    Teleport = Window:AddTab({Title = "Teleport", Icon = "map"}),
+    Fruit = Window:AddTab({Title = "Fruit", Icon = "apple"}),
+    Raid = Window:AddTab({Title = "Raid", Icon = "target"}),
+    Race = Window:AddTab({Title = "Race", Icon = "flag"}),
+    Shop = Window:AddTab({Title = "Shop", Icon = "shopping-bag"}),
+    Misc = Window:AddTab({Title = "Misc", Icon = "menu"})
 }
 local FarmLevel = Tabs.Main:AddToggle("FarmLevel", {
     Title = "Auto Farm Level",
