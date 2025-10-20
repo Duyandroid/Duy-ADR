@@ -16,7 +16,7 @@ local Window =
         Title = "Maru Hub[Premium]",
         SubTitle = "Make by Duy Android",
         TabWidth = 160,
-        Size = UDim2.fromOffset(400, 200),
+        Size = UDim2.fromOffset(530, 350),
         Acrylic = false,
         Theme = "Dark",
         MinimizeKey = Enum.KeyCode.End
@@ -102,7 +102,7 @@ do
     game:GetService("StarterGui"):SetCore(
         "SendNotification",
         {
-            Title = "Phat Crystal Hub",
+            Title = "Duy Android Hub",
             Text = "Loaded Success",
             Duration = 10
         }
@@ -4282,11 +4282,11 @@ do
 
     Tabs.Sever:AddButton(
         {
-            Title = "Sever Discord PhatCrystal",
-            Description = "Click to copy the Discord link",
+            Title = "TikTok Adminl",
+            Description = "Click to copy the TikTok link",
             Callback = function()
-                setclipboard("https://discord.gg/hyGgHBudcs")
-                print("Discord link copied!")
+                setclipboard("https://www.tiktok.com/@brightaometa")
+                print("TikTok link copied!")
             end
         }
     )
@@ -10678,7 +10678,7 @@ RunService.RenderStepped:Connect(
                 Fluent:Notify(
                     {
                         Title = "Prehistoric Island Spawn",
-                        Content = "Phat Hub Notification",
+                        Content = "Duy Android Hub Notification",
                         Duration = 10
                     }
                 )
@@ -14241,7 +14241,7 @@ RunService.RenderStepped:Connect(
                 Fluent:Notify(
                     {
                         Title = "Frozen Dimension Spawn",
-                        Content = "Phat Hub Notification",
+                        Content = "Duy Android Hub Notification",
                         Duration = 10
                     }
                 )
