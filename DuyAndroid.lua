@@ -2271,33 +2271,34 @@ local Window = Fluent:CreateWindow({
     MinimizeKey = Enum.KeyCode.End
 })
 local Tabs = {
+    Sever = Window:AddTab({Title = "Status And Server", Icon = "loader"}),
     Main = Window:AddTab({
         Title = "Main",
-        Icon = "🎯"
+        Icon = "home"
     }),
     Settings = Window:AddTab({
         Title = "Settings",
-        Icon = "⚙️"
+        Icon = "sliders"
     }),
     Melee = Window:AddTab({
         Title = "Fighting Style",
-        Icon = ""
+        Icon = "shield"
     }),
     Quests = Window:AddTab({
         Title = "Items",
-        Icon = "📦"
+        Icon = "sword"
     }),
     New = Window:AddTab({
         Title = "New Events",
-        Icon = "🎉"
+        Icon = "anchor"
     }),
     SeaEvent = Window:AddTab({
         Title = "Sea Events",
-        Icon = "🌊"
+        Icon = "tent"
     }),
     Mirage = Window:AddTab({
         Title = "Mirage + RaceV4",
-        Icon = ""
+        Icon = "layers"
     }),
     Drago = Window:AddTab({
         Title = "Drago Dojo",
@@ -2309,29 +2310,41 @@ local Tabs = {
     }),
     Raids = Window:AddTab({
         Title = "Raid",
-        Icon = "🗡️"
+        Icon = "target"
     }),
     Combat = Window:AddTab({
         Title = "Combat PVP",
-        Icon = "⚔️"
+        Icon = " Alden strikes the goblin"
     }),
     Travel = Window:AddTab({
         Title = "Teleport",
-        Icon = "🌀"
+        Icon = "map"
     }),
     Fruit = Window:AddTab({
         Title = "Fruits",
-        Icon = "🍎"
+        Icon = "apple"
     }),
     Shop = Window:AddTab({
         Title = "Shop",
-        Icon = "🛒"
+        Icon = "hopping-bag"
     }),
     Misc = Window:AddTab({
         Title = "Misc",
-        Icon = "🔎"
+        Icon = "menu"
     })
 }
+local Status = Tabs.Sever:AddSection("Sever Discord")
+
+    Tabs.Sever:AddButton(
+        {
+            Title = "TikTok Adminl",
+            Description = "Click to copy the TikTok link",
+            Callback = function()
+                setclipboard("https://www.tiktok.com/@brightaometa")
+                print("TikTok link copied!")
+            end
+        }
+    )
 local FarmLevel = Tabs.Main:AddToggle("FarmLevel", {
     Title = "Auto Farm Level",
     Description = "",
